@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        fieldset {
+           
+
+            width: 60%;
+            padding: 2px;
+            border: 2px solid #000;
+            background-color: #c6e5ec;
+        }
+
+        /* Column layout */
+        .column {
+            float: left;
+            width: 48%;
+            margin-right: 4%;
+            margin-bottom: 20px;
+        }
+        .column-right {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    
+     <h1>registration form smit</h1>
+    <img src="https://forms.saylaniwelfare.com/static/media/logo.22bf709605809177256c.png" alt="">
+    <form action="get">
+        <fieldset>
+            <legend >Registration</legend>
+
+            <div class="clearfix">
+                <!-- Left Column -->
+                <div class="column">
+                    <p>
+                        Select Country
+                        <select name="select country">
+                            <option value="select country">Select Country</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="turkey">Turkey</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        Select Course or Event
+                        <input type="text" name="select course or event" maxlength="30">
+                    </p>
+
+                    <p>
+                        Name
+                        <input type="text" name="name" maxlength="30">
+                    </p>
+
+                    <p>
+                        Email
+                        <input type="email" name="email">
+                    </p>
+
+                    <p>
+                        CNIC
+                        <input type="text" name="CNIC" maxlength="30">
+                    </p>
+
+                    <p>
+                        Date
+                        <input type="date" name="depart">
+                    </p>
+
+                    <p>
+                        Last Qualification
+                        <select name="last qualification">
+                            <option value="last qualification">Last Qualification</option>
+                            <option value="matric">Matric</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="undergraduate">Undergraduate</option>
+                            <option value="graduate">Graduate</option>
+                            <option value="master">Master</option>
+                        </select>
+                    </p>
+                </div>
+
+                <!-- Right Column -->
+                <div class="column column-right">
+                    <p>
+                        Select City
+                        <input type="text" name="select city" maxlength="30">
+                    </p>
+
+                    <p>
+                        Select Your Computer Proficiency
+                        <select name="select your computer proficiency">
+                            <option value="select your computer proficiency">Select Proficiency</option>
+                            <option value="none">None</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advance">Advance</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        Father's Name
+                        <input type="text" name="father name" maxlength="30">
+                    </p>
+
+                    <p>
+                        Phone
+                        <input type="text" name="phone" maxlength="30">
+                    </p>
+
+                    <p>
+                        Father's CNIC (Optional)
+                        <input type="text" name="father'CNIC(optional)" maxlength="30">
+                    </p>
+
+                    <p>
+                        Select Gender
+                        <select name="select gender">
+                            <option value="select gender">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        Address
+                        <input type="text" name="address" maxlength="30">
+                    </p>
+
+                    <p>
+                        Do you have a laptop?
+                        <select name="do you have a laptop?">
+                            <option value="select">Do you have a laptop?</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+
+            <p>
+                Picture: 
+                <input type="file" name="user-image">
+            </p>
+
+            <div class="submit-button">
+                <input type="submit" value="Submit">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
